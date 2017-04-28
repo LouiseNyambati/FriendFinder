@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Survey</title>
   <!-- Latest compiled and minified CSS & JS -->
+<link rel = "stylesheet" type = "text/css" href = "assets/CSS/friend.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="assets/JS/.js"></script>
+
+
 </head>
 <body>
   <h2>Survey Questions</h2>
   <form>
     <h3>Name (Required)</h3>
-    <input type="text" name="name">
+    <input type="text" name="name" size="100">
     <br>
     <h3>Link to Photo Image (Required)</h3>
-    <input type="text" name="photo">
+    <input type="text" name="photo" size="100">
     <br><br><br>
     <h3>Question 1</h3>
       <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
@@ -113,6 +116,11 @@
     <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 
   </form>
+  <footer class="footer">
+    <div class="container">
+      <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/LouiseNyambati/FriendFinder">GitHub Repo</a></p>
+    </div>
+  </footer>
 
 
 </body>
